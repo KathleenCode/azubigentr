@@ -1,0 +1,63 @@
+body {
+    background: linear-gradient(135deg, #E6E6FA 0%, #D8BFD8 50%, #DDA0DD 100%); /* Light violet to thistle to medium purple */
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #4B0082; /* Indigo violet text */
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #FFFFFF;
+    border: 4px dashed #6A0DAD; /* Dark violet, thick dashed border */
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(106, 13, 173, 0.3); /* Subtle violet shadow */
+    transition: transform 0.2s ease-in-out;
+}
+
+.container:hover {
+    transform: translateY(-2px); /* Slight lift on hover for interactivity */
+}
+
+h1 {
+    color: #8A2BE2; /* Vibrant violet heading */
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+input[type="file"] {
+    display: block;
+    margin: 15px auto;
+    padding: 10px;
+    background-color: #E6D0FA; /* Light violet background for input */
+    border: 2px solid #8A2BE2; /* Violet border */
+    border-radius: 8px;
+    color: #4B0082;
+    font-size: 0.9em;
+    width: 80%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="file"]:hover {
+    background-color: #DDA0DD; /* Slightly darker violet on hover */
+}
+
+button {
+    background-color: #8A2BE2; /* Violet button */
+    color: white;
+    padding: 8px 16px; /* Smaller button */
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+

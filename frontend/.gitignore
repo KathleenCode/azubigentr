@@ -1,0 +1,9 @@
+.env
+node_modules
+config.js
+.terraform/
+*.exe
+terraform.tfstate
+terraform.tfstate.backup
+.gitattributes
+.terraform.lock.hcl

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Translation App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.2.41.min.js"></script>  <!-- AWS JS SDK -->
+    <script src="config.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Upload JSON for Translation</h1>
+        <input type="file" id="fileInput" accept=".json">
+        <button onclick="uploadFile()">Upload and Translate</button>
+        <div id="result"></div>
+    </div>
+</body>
+</html>
