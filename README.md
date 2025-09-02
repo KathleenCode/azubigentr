@@ -2,7 +2,7 @@ This documentation covers infrastructure setup, IAM roles, script usage, and tro
 
 ---
 
-# AWS Document Translation Project Documentation
+# AWS Translation Project Documentation
 
 ## Overview
 This project implements a real-time document translation system using AWS services, including Amazon S3, AWS Lambda, and Amazon Translate. The solution allows users to upload JSON files containing text to translate, processes them asynchronously via Lambda, and stores the translated output in an S3 bucket. The frontend, hosted locally, polls for results. The infrastructure is managed with Terraform, deployed in the `eu-north-1` region, and recently enhanced with a VPC for security.
@@ -170,5 +170,6 @@ This project implements a real-time document translation system using AWS servic
 - **Security**: Use AWS Cognito for production credentials instead of `.env`.
 - **Scaling**: Adjust Lambda memory or timeout if processing large files.
 - **Updates**: Reflect changes (e.g., VPC) in `main.tf` and re-apply.
+
 
 This documentation provides a complete guide for your project.
